@@ -29,7 +29,8 @@ public class Libro extends Publicacion {
 
     @Override
     public String toString() {
-        return "Libro: \n"
+        return super.toString()
+                + "Libro: \n"
                 + "prestado: " + prestado + "\n";
     }
     
