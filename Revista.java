@@ -9,6 +9,13 @@ public class Revista extends Publicacion{
         super(codigo, titulo, anoPublicacion);
         this.numero = numero;
     }
+
+    @Override
+    public String toString() {
+        return super.toString()
+                +"Revista: \n" 
+                + "Número: " + numero + "\n";
+    }
    
     
     
