@@ -23,5 +23,16 @@ public class Libro extends Publicacion {
         prestado = true;
     }
     
+    public void devolver(){
+        prestado = false;
+    }
+
+    @Override
+    public String toString() {
+        return "Libro: \n"
+                + "prestado: " + prestado + "\n";
+    }
+    
+    
     
 }
